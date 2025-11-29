@@ -5,6 +5,16 @@
 
 ---
 
+## Author Information
+
+| | |
+|---|---|
+| **Student** | Ali Saad Ezzaldeen |
+| **Group** | A |
+| **Supervisor** | Dr. Anmar Burhan |
+
+---
+
 ## Table of Contents
 
 1. [Executive Summary](#1-executive-summary)
@@ -922,9 +932,13 @@ MIT License - Free for educational and commercial use.
 
 ## Acknowledgments
 
+Special thanks to **Dr. Anmar Burhan** for supervision and guidance on this project.
+
+### Technologies Used
 - Apache Spark team for the distributed computing framework
 - Faker library for realistic data generation
 - Rich library for beautiful console output
+- Matplotlib for data visualization
 
 ---
 
