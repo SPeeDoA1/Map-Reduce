@@ -1,0 +1,180 @@
+# PowerGrid AI - Git Ignore File
+
+# ==============================================================================
+# Python
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pytest / testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ==============================================================================
+# Generated Data (large files - regenerate with ./run.sh)
+# ==============================================================================
+
+# Raw synthetic data
+data/raw/
+data/raw/*.csv
+
+# Processed analytics output
+data/processed/
+data/processed/**/*.csv
+data/processed/**/*.parquet
+
+# Generated charts and reports
+data/reports/
+data/reports/*.png
+data/reports/*.pdf
+
+# ==============================================================================
+# Apache Spark
+# ==============================================================================
+
+# Spark temporary files
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Spark checkpoint data
+checkpoint/
+
+# Spark event logs
+spark-events/
+
+# ==============================================================================
+# IDE / Editors
+# ==============================================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ==============================================================================
+# Operating System
+# ==============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# ==============================================================================
+# Jupyter Notebooks
+# ==============================================================================
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==============================================================================
+# Logs
+# ==============================================================================
+
+*.log
+logs/
+
+# ==============================================================================
+# Secrets / Credentials (never commit these!)
+# ==============================================================================
+
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.yaml
+credentials.json
+
+# ==============================================================================
+# Miscellaneous
+# ==============================================================================
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Archive files (if accidentally created in project)
+*.zip
+*.tar.gz
+*.rar
